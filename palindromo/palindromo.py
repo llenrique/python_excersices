@@ -4,8 +4,7 @@ def palindromo(palabra):
 
 def run():
     palabra = input("Escribe una palabra: ")
-    es_palindromo = palindromo(palabra)
-    if es_palindromo:
+    if palindromo(palabra):
         print("Es un palindromo")
     else:
         print("No es palindromo")
