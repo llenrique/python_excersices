@@ -11,9 +11,6 @@ AGE_MAJORITY = {
 }
 
 age_majority = AGE_MAJORITY[nationality]
-print(age_majority)
-
-print(age_majority >= age)
 
 if nationality == "mxn":
     if age >= age_majority:
